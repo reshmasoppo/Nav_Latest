@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment1"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="name1"/>
+        <item
+            android:id="@+id/fragment2"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="name2"/>
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="name3"/>
+
+    </group>
+    <item android:title="more">
+        <menu>
+            <item
+                android:id="@+id/nav_finish"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="finish"/>
+        </menu>
+    </item>
+</menu>
